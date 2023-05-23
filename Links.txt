@@ -1,5 +1,0 @@
-
-Clone of: https://usabilityhub.com/
-Font Awesome: https://fontawesome.com/icons
-Google Fonts: https://fonts.google.com
-CSS Peeper Extension:https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en

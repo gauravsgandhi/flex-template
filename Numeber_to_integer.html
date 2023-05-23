@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Number to integer</title>
+	<script type="text/javascript">
+		
+		var zero=["one","two","three","four","five","six","seven","eight","nine","ten"];
+		var ten_twenty=["eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"];
+		var tens=["twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety","hundred"];
+
+		var num=78;
+		var n=0;
+		if(num<=10){
+			document.write(zero[[num]-1]);
+		}
+		else if(num>=11&&num<20){
+			document.write(ten_twenty[[num]-11]);
+		}
+		else if(num>=20&&num<100){
+			var num2=num;
+			num=Math.floor(num/10);
+			document.write(tens[[num]-2]+" ");
+			n=num2%10;
+			document.write(zero[[n]-1]);
+		}
+		else if (num==100){
+			document.write("hundred");
+		}
+		else{
+			document.write("Not a valid no");
+		}
+
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
