@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Drop Down Event</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>	
+	<div class="dropdown" style="margin-bottom: 150px;">
+		<input type="button" class="dropbtn" name="btn" value="Button">
+		<div class="list">
+			<li><button onclick="myfunc()">Pink</button></li>
+			<li><button onclick="myfunc1()">Blue</button></li>
+			<li><button onclick="myfunc2()">Orange</button></li>
+			<li><button onclick="myfunc3()">Yellow</button></li>
+		</div>
+	</div>
+
+	<div id="para">
+		<p>This is my paragraph</p>
+	</div>
+<script type="text/javascript">
+	var x=document.getElementById('para');
+	function myfunc() {
+		x.style.backgroundColor="Pink"
+	}
+	function myfunc1() {
+		x.style.backgroundColor="SkyBlue"
+	}
+	function myfunc2() {
+		x.style.backgroundColor="Orange"
+	}
+	function myfunc3() {
+		x.style.backgroundColor="Yellow"
+	}
+</script>
+</body>
+</html>

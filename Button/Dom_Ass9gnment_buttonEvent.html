@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Button Event</title>
+</head>
+<body>
+
+	<div id="btn-1">
+		<p>This is a new text.</p>
+	</div>
+	<button onclick="myfun()">Click Me!!</button>
+
+	<script type="text/javascript">
+		var clicked=true;
+
+		function myfun() {
+		// 	if (true) {
+		// 	document.getElementById('btn-1').style.backgroundColor='Yellow'
+		// 	document.getElementById('btn-1').style.color='red'
+		// 	clicked=!clicked
+		// 	console.log(clicked)
+		// 	}
+		// 	else{
+		// 		document.getElementById('btn-1').style.backgroundColor='Pink';
+				
+		// 		console.log(clicked)
+		// 	}
+		// }
+			var text=document.getElementById('btn-1')
+
+			if (clicked) {
+				text.style.backgroundColor='Yellow';
+				text.style.color='red'
+				
+			}
+			else{
+				text.style.backgroundColor='Pink';
+			}
+			clicked=!clicked
+
+}
+		
+		
+	</script>
+
+</body>
+</html>

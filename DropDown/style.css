@@ -1,0 +1,46 @@
+.dropdown{
+	
+	position: relative;
+
+
+}
+
+
+.dropbtn{
+	background-color: lightpink;
+	color: black;
+	padding: 15px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+
+
+}
+.list{
+	display: none;
+	position: absolute;
+	background-color: grey;
+	min-width: 160px;
+	box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.2) ;
+	z-index: 1;
+	left: 0px;
+}
+.list a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+
+}
+
+.dropdown:hover .list{
+	display: block;
+}
+
+.dropdown:hover .dropbtn{
+	background-color: deeppink;
+
+}
+.list a:hover{
+	background-color: lightgreen;
+}
